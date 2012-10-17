@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Android程序员博客
+title: 我的说明
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
