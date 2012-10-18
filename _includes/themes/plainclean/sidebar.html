@@ -1,0 +1,31 @@
+<div id="sidebar">
+	<ul>
+		<li>
+			<div id="search" >
+				<form method="get" action="http://www.google.cn/search">
+					<div>
+                        <input name="sitesearch" value="xiaoym.github.com" type="hidden">
+						<input type="text" name="q" id="search-text" value="" />
+                        <input name="hl" value="en-US" type="hidden">
+						<input type="submit" id="search-submit" value="GO" />
+					</div>
+				</form>
+			</div>
+			<div style="clear: both;">&nbsp;</div>
+		</li>
+		<li>
+			<h2>标签</h2>
+			<ul>
+                {% assign tags_list = site.tags %}
+                  {% include JB/tags_list %}
+              </ul>
+		</li>
+		<li>
+			<h2>分类</h2>
+			<ul>
+                {% assign categories_list = site.categories %}
+                {% include JB/categories_list %}
+			</ul>
+		</li>
+	</ul>
+</div>
