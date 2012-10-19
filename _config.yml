@@ -6,10 +6,12 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: false
 pygments: true
 
+paginate: 10
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 程序员的博客
+title : 东山的烂笔头
 tagline: Androd Java C OSX
 author :
   name : 月东山
@@ -112,7 +114,13 @@ JB :
   #
   sharing :
     provider : false
-    
+
+  categories_list:
+    provider : "custom"
+
+  tags_list:
+    provider: "custom"
+
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
