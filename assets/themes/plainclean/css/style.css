@@ -505,3 +505,23 @@ code {
     font-size: 1em;
     line-height: 1.4em;
 }
+
+.pagination {
+    text-align:right;
+}
+
+.pagination p, .pagination ul, .pagination li {
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+.pagination a {
+    padding:2px 5px;
+}
+
+.pagination .current-page, .pagination a:hover {
+    padding:2px 5px;
+    color:#ffffff;
+    background:#CA4C44;
+}

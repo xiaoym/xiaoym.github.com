@@ -5,7 +5,6 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: false
 pygments: true
-
 paginate: 10
 
 # Themes are encouraged to use these universal variables 
