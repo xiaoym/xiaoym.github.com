@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OSX中php mysql \"No such file\"的解决"
+title: "php \"No such file\"的解决"
 description: "osx中php mysql问题的解决"
 category: "osx"
 tags: ["osx", "php", "mysql"]
