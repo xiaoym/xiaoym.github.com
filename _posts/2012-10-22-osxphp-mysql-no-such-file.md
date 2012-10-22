@@ -3,7 +3,7 @@ layout: post
 title: "OSX中php mysql \"No such file\"的解决"
 description: "osx中php mysql问题的解决"
 category: "osx"
-tags: ["osx", "php", "mysql", "no-such-file"]
+tags: ["osx", "php", "mysql"]
 ---
 {% include JB/setup %}
 
